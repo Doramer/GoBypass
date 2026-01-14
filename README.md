@@ -19,9 +19,9 @@
 将生成的测试载荷（`.bin` 文件）与 `GoBypass.exe` 置于同一目录下，打开终端运行：
 
 ```text
-默认模式（默认针对 360 环境进行行为模拟）
+默认模式（默认针对 360）
 .\GoBypass.exe -p test.bin
 
-指定特定防护环境
+指定火绒
 .\GoBypass.exe -p test.bin -t hr
 ```
